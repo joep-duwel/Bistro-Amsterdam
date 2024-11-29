@@ -1,0 +1,23 @@
+.container{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.card{
+flex: 30%;
+background-color: #FFF5E1;
+}
+.pro-inside{
+    margin: 20px;
+}
+.img-pro{
+    border: 2px #d4af37 solid;
+    border-radius: 20px;
+    width: 100%;
+}
+.tit-pro{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    
+}

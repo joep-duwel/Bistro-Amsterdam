@@ -1,0 +1,124 @@
+body {
+  background-color: #fff5e1;
+}
+
+.main-img {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.crad {
+  width: 33%;
+  align-items: center;
+  text-align: center;
+}
+.tables-tit {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: #d4af37;
+}
+.flowers {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.intro-tit {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: #4a4a4a;
+}
+.border {
+  border: 3px solid #d4af37;
+  border-radius: 10px;
+  margin: 15px;
+}
+.intro-tekst {
+  margin: 20px;
+  color: #4a4a4a;
+  font-family: "Roboto", sans-serif;
+}
+.menu-tit {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: #4a4a4a;
+}
+.menu-tekst {
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+  color: #4a4a4a;
+}
+.menu-items {
+  font-family: "Roboto", sans-serif;
+  color: #800020;
+  font-size: 24px;
+}
+footer {
+    background-color: #800020; /* Dieprood */
+    color: #FFF5E1; /* Licht ivoor */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-info, .footer-links, .footer-contact, .footer-social {
+    margin: 20px;
+    width: 25%;
+}
+
+.footer-info h3, .footer-links h4, .footer-contact h4, .footer-social h4 {
+    font-family: "Georgia", serif;
+    font-size: 24px;
+    color: #FFF5E1;
+}
+
+.footer-info p, .footer-contact p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #FFF5E1;
+}
+
+.footer-links ul, .footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li, .footer-social li {
+    margin: 10px 0;
+}
+
+.footer-links a, .footer-social a {
+    color: #FFF5E1;
+    text-decoration: none;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #4B1F2A; /* Donkerder rood */
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .crad {
+    width: max-content;
+    align-items: center;
+    text-align: center;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+}
