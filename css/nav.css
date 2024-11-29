@@ -1,110 +1,128 @@
 nav {
-    margin-top: 0;
-    background-color: #800020;
-    padding-top: 1px;
-    list-style: none;
-    padding-bottom: 1px;
-  }
-  .ulbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  a {
-    text-decoration: none;
-    color: #fff5e1;
-    justify-content: space-between;
-    
-    font-family: "Roboto", sans-serif;
-    flex: 20%;
-  }
-  a:hover{
-      color: aliceblue;
-      font-size: 20px;
-      font-family: "Roboto", sans-serif;
-  }
-  .active{
-      color: #d4af37;
-  }
-  .logo {
-      flex: 20%;
-    font-family: "Georgia", serif;
-    color: #fff5e1;
-    font-size: 24px;
-  }
-  footer {
-    background-color: #800020; /* Dieprood */
-    color: #FFF5E1; /* Licht ivoor */
-    padding: 40px 0;
-    text-align: center;
+  margin-top: 0;
+  background-color: #800020;
+  padding-top: 1px;
+  list-style: none;
+  padding-bottom: 1px;
+}
+.dis {
+  font-family: "Georgia", serif;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  color: #800020;
+}
+.ulbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #fff5e1;
+  justify-content: space-between;
+
+  font-family: "Roboto", sans-serif;
+  flex: 20%;
+}
+a:hover {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.active {
+  color: #d4af37;
+}
+.logo {
+  flex: 20%;
+  font-family: "Georgia", serif;
+  color: #fff5e1;
+  font-size: 24px;
+}
+footer {
+  background-color: #800020; /* Dieprood */
+  color: #fff5e1; /* Licht ivoor */
+  padding: 40px 0;
+  text-align: center;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.footer-info, .footer-links, .footer-contact, .footer-social {
-    margin: 20px;
-    width: 25%;
+.footer-info,
+.footer-links,
+.footer-contact,
+.footer-social {
+  margin: 20px;
+  width: 25%;
 }
 
-.footer-info h3, .footer-links h4, .footer-contact h4, .footer-social h4 {
-    font-family: "Georgia", serif;
-    font-size: 24px;
-    color: #FFF5E1;
+.footer-info h3,
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  color: #fff5e1;
 }
 
-.footer-info p, .footer-contact p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #FFF5E1;
+.footer-info p,
+.footer-contact p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff5e1;
 }
 
-.footer-links ul, .footer-social ul {
-    list-style-type: none;
-    padding: 0;
+.footer-links ul,
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.footer-links li, .footer-social li {
-    margin: 10px 0;
+.footer-links li,
+.footer-social li {
+  margin: 10px 0;
 }
 
-.footer-links a, .footer-social a {
-    color: #FFF5E1;
-    text-decoration: none;
+.footer-links a,
+.footer-social a {
+  color: #fff5e1;
+  text-decoration: none;
 }
 
-.footer-links a:hover, .footer-social a:hover {
-    text-decoration: underline;
+.footer-links a:hover,
+.footer-social a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom {
-    background-color: #4B1F2A; /* Donkerder rood */
-    padding: 10px;
-    font-size: 14px;
+  background-color: #4b1f2a; /* Donkerder rood */
+  padding: 10px;
+  font-size: 14px;
 }
 
 .footer-bottom p {
-    margin: 0;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
-  @media only screen and (max-width: 600px) {
-    nav {
-    }
-    .ulbar {
-      flex-wrap: wrap;
-    }
-    a {
-      padding-left: 1px;
-      justify-content: center;
-      margin: 1rem;
-      font-family: "Roboto", sans-serif;
-      flex: 100%;
-    }
-    .logo {
-     padding-left: 1px;
-    }
+@media only screen and (max-width: 600px) {
+  nav {
+  }
+  .ulbar {
+    flex-wrap: wrap;
+  }
+  a {
+    padding-left: 1px;
+    justify-content: center;
+    margin: 1rem;
+    font-family: "Roboto", sans-serif;
+    flex: 100%;
+  }
+  .logo {
+    padding-left: 1px;
+  }
 }

@@ -1,0 +1,60 @@
+body{
+    background-color: #fff5e1;
+}
+.tit{
+    font-family: "Georgia", serif;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-res{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    justify-content: center;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+}
+.border{
+    border: 2px #d4af37 solid;
+    border-radius: 16px;
+    background-color: #ddd7cc;
+}
+.for{
+    margin: 2rem;
+}
+.input-res{
+    color: #4a4a4a;
+    font-size: 40px;
+}
+.btn{
+    margin-top: 2rem;
+    font-size: 40px;
+    background-color: #800020;
+    border: 0;
+    border-radius: 20px;
+    color: #fff5e1;
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .tit{
+        font-size: 50px;
+    }
+    .form-res{
+        display: flex;
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        justify-content: center;
+        color: #4a4a4a;
+        margin-bottom: 50px;
+    }
+    .btn{
+        font-size: 30px;
+        
+    }
+    .input-res{
+        font-size: 30px;
+    }
+    
+}
